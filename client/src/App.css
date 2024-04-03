@@ -1,0 +1,29 @@
+section{
+    width: 60%;
+    position: relative;left: 50%;
+    transform: translateX(-50%);
+    padding: 10px;
+    height: 100vh;
+   border: 1px solid #fff;
+}
+
+.first_div{
+    max-height: 550px;
+
+    width: 100%;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.second_div{
+    width: 100%;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+}
+
+.second_div input{
+    width: 90%;
+    height: 40px;
+}
